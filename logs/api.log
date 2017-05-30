@@ -1,0 +1,216 @@
+18:47:23.665 Api Request Received: messageType:GetStepValueRequest messageId:9155855586933421682 stepValueRequest:<stepText:"On the customer page" > 
+18:47:23.665 Sending API response: messageType:GetStepValueResponse messageId:9155855586933421682 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+18:47:23.704 Api Request Received: messageType:GetStepValueRequest messageId:8671231066889312286 stepValueRequest:<stepText:"Search for customer <name>" > 
+18:47:23.704 Sending API response: messageType:GetStepValueResponse messageId:8671231066889312286 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+18:47:23.744 Api Request Received: messageType:GetStepValueRequest messageId:3217316926724329609 stepValueRequest:<stepText:"The customer <name> is listed" > 
+18:47:23.744 Sending API response: messageType:GetStepValueResponse messageId:3217316926724329609 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+18:47:23.784 Api Request Received: messageType:GetStepValueRequest messageId:4776120296329998962 stepValueRequest:<stepText:"Search for customers <table>" > 
+18:47:23.784 Sending API response: messageType:GetStepValueResponse messageId:4776120296329998962 stepValueResponse:<stepValue:<stepValue:"Search for customers {}" parameterizedStepValue:"Search for customers <table>" parameters:"table" > > 
+18:47:23.824 Api Request Received: messageType:GetStepValueRequest messageId:4381744453302724819 stepValueRequest:<stepText:"Just registered customer is listed" > 
+18:47:23.824 Sending API response: messageType:GetStepValueResponse messageId:4381744453302724819 stepValueResponse:<stepValue:<stepValue:"Just registered customer is listed" parameterizedStepValue:"Just registered customer is listed" > > 
+18:47:23.864 Api Request Received: messageType:GetStepValueRequest messageId:6754686434011576563 stepValueRequest:<stepText:"Create a product <table>" > 
+18:47:23.864 Sending API response: messageType:GetStepValueResponse messageId:6754686434011576563 stepValueResponse:<stepValue:<stepValue:"Create a product {}" parameterizedStepValue:"Create a product <table>" parameters:"table" > > 
+18:47:23.904 Api Request Received: messageType:GetStepValueRequest messageId:498511824194227753 stepValueRequest:<stepText:"On product page" > 
+18:47:23.904 Sending API response: messageType:GetStepValueResponse messageId:498511824194227753 stepValueResponse:<stepValue:<stepValue:"On product page" parameterizedStepValue:"On product page" > > 
+18:47:23.944 Api Request Received: messageType:GetStepValueRequest messageId:2021962792980463834 stepValueRequest:<stepText:"Search for product <name>" > 
+18:47:23.944 Sending API response: messageType:GetStepValueResponse messageId:2021962792980463834 stepValueResponse:<stepValue:<stepValue:"Search for product {}" parameterizedStepValue:"Search for product <name>" parameters:"name" > > 
+18:47:23.984 Api Request Received: messageType:GetStepValueRequest messageId:9013869901835318841 stepValueRequest:<stepText:"Open description for product <name>" > 
+18:47:23.984 Sending API response: messageType:GetStepValueResponse messageId:9013869901835318841 stepValueResponse:<stepValue:<stepValue:"Open description for product {}" parameterizedStepValue:"Open description for product <name>" parameters:"name" > > 
+18:47:24.024 Api Request Received: messageType:GetStepValueRequest messageId:1699767216110433852 stepValueRequest:<stepText:"Verify product author as <author>" > 
+18:47:24.024 Sending API response: messageType:GetStepValueResponse messageId:1699767216110433852 stepValueResponse:<stepValue:<stepValue:"Verify product author as {}" parameterizedStepValue:"Verify product author as <author>" parameters:"author" > > 
+18:47:24.064 Api Request Received: messageType:GetStepValueRequest messageId:4760644458895237483 stepValueRequest:<stepText:"Delete this product" > 
+18:47:24.064 Sending API response: messageType:GetStepValueResponse messageId:4760644458895237483 stepValueResponse:<stepValue:<stepValue:"Delete this product" parameterizedStepValue:"Delete this product" > > 
+18:47:24.104 Api Request Received: messageType:GetStepValueRequest messageId:4955634199571083335 stepValueRequest:<stepText:"On new products page" > 
+18:47:24.104 Sending API response: messageType:GetStepValueResponse messageId:4955634199571083335 stepValueResponse:<stepValue:<stepValue:"On new products page" parameterizedStepValue:"On new products page" > > 
+18:47:24.144 Api Request Received: messageType:GetStepValueRequest messageId:1819504941971554443 stepValueRequest:<stepText:"Verify product <specifier> as <value>" > 
+18:47:24.144 Sending API response: messageType:GetStepValueResponse messageId:1819504941971554443 stepValueResponse:<stepValue:<stepValue:"Verify product {} as {}" parameterizedStepValue:"Verify product <specifier> as <value>" parameters:"specifier" parameters:"value" > > 
+18:47:24.184 Api Request Received: messageType:GetStepValueRequest messageId:2071826285236184074 stepValueRequest:<stepText:"Find and store productId for <title>" > 
+18:47:24.184 Sending API response: messageType:GetStepValueResponse messageId:2071826285236184074 stepValueResponse:<stepValue:<stepValue:"Find and store productId for {}" parameterizedStepValue:"Find and store productId for <title>" parameters:"title" > > 
+18:47:24.224 Api Request Received: messageType:GetStepValueRequest messageId:8491382134824873625 stepValueRequest:<stepText:"Open product edit page for stored productId" > 
+18:47:24.224 Sending API response: messageType:GetStepValueResponse messageId:8491382134824873625 stepValueResponse:<stepValue:<stepValue:"Open product edit page for stored productId" parameterizedStepValue:"Open product edit page for stored productId" > > 
+18:47:24.264 Api Request Received: messageType:GetStepValueRequest messageId:5147396931329661250 stepValueRequest:<stepText:"Update product specifier to new value <table>" > 
+18:47:24.264 Sending API response: messageType:GetStepValueResponse messageId:5147396931329661250 stepValueResponse:<stepValue:<stepValue:"Update product specifier to new value {}" parameterizedStepValue:"Update product specifier to new value <table>" parameters:"table" > > 
+18:47:24.304 Api Request Received: messageType:GetStepValueRequest messageId:2395677522288772250 stepValueRequest:<stepText:"Check product specifier has new value <table>" > 
+18:47:24.304 Sending API response: messageType:GetStepValueResponse messageId:2395677522288772250 stepValueResponse:<stepValue:<stepValue:"Check product specifier has new value {}" parameterizedStepValue:"Check product specifier has new value <table>" parameters:"table" > > 
+18:47:24.344 Api Request Received: messageType:GetStepValueRequest messageId:1066539529284523183 stepValueRequest:<stepText:"On signup page" > 
+18:47:24.344 Sending API response: messageType:GetStepValueResponse messageId:1066539529284523183 stepValueResponse:<stepValue:<stepValue:"On signup page" parameterizedStepValue:"On signup page" > > 
+18:47:24.384 Api Request Received: messageType:GetStepValueRequest messageId:4628334352108261682 stepValueRequest:<stepText:"Fill in and send registration form" > 
+18:47:24.384 Sending API response: messageType:GetStepValueResponse messageId:4628334352108261682 stepValueResponse:<stepValue:<stepValue:"Fill in and send registration form" parameterizedStepValue:"Fill in and send registration form" > > 
+18:50:57.458 Api Request Received: messageType:GetStepValueRequest messageId:7231280143564546186 stepValueRequest:<stepText:"On the customer page" > 
+18:50:57.458 Sending API response: messageType:GetStepValueResponse messageId:7231280143564546186 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+18:50:57.496 Api Request Received: messageType:GetStepValueRequest messageId:7056664167034996338 stepValueRequest:<stepText:"Search for customer <name>" > 
+18:50:57.496 Sending API response: messageType:GetStepValueResponse messageId:7056664167034996338 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+18:50:57.536 Api Request Received: messageType:GetStepValueRequest messageId:5691986596302655201 stepValueRequest:<stepText:"The customer <name> is listed" > 
+18:50:57.536 Sending API response: messageType:GetStepValueResponse messageId:5691986596302655201 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+18:50:57.576 Api Request Received: messageType:GetStepValueRequest messageId:7251282769082486974 stepValueRequest:<stepText:"Search for customers <table>" > 
+18:50:57.576 Sending API response: messageType:GetStepValueResponse messageId:7251282769082486974 stepValueResponse:<stepValue:<stepValue:"Search for customers {}" parameterizedStepValue:"Search for customers <table>" parameters:"table" > > 
+18:50:57.616 Api Request Received: messageType:GetStepValueRequest messageId:4524163562328430842 stepValueRequest:<stepText:"Just registered customer is listed" > 
+18:50:57.616 Sending API response: messageType:GetStepValueResponse messageId:4524163562328430842 stepValueResponse:<stepValue:<stepValue:"Just registered customer is listed" parameterizedStepValue:"Just registered customer is listed" > > 
+18:55:54.153 Api Request Received: messageType:GetStepValueRequest messageId:8484365046504950562 stepValueRequest:<stepText:"On the customer page" > 
+18:55:54.154 Sending API response: messageType:GetStepValueResponse messageId:8484365046504950562 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+18:55:54.192 Api Request Received: messageType:GetStepValueRequest messageId:2614123688190261896 stepValueRequest:<stepText:"Search for customer <name>" > 
+18:55:54.192 Sending API response: messageType:GetStepValueResponse messageId:2614123688190261896 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+18:55:54.232 Api Request Received: messageType:GetStepValueRequest messageId:3228440799630940989 stepValueRequest:<stepText:"The customer <name> is listed" > 
+18:55:54.232 Sending API response: messageType:GetStepValueResponse messageId:3228440799630940989 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+18:55:54.272 Api Request Received: messageType:GetStepValueRequest messageId:3175887086163061041 stepValueRequest:<stepText:"Search for customers <table>" > 
+18:55:54.272 Sending API response: messageType:GetStepValueResponse messageId:3175887086163061041 stepValueResponse:<stepValue:<stepValue:"Search for customers {}" parameterizedStepValue:"Search for customers <table>" parameters:"table" > > 
+18:55:54.312 Api Request Received: messageType:GetStepValueRequest messageId:4045169385677778742 stepValueRequest:<stepText:"Just registered customer is listed" > 
+18:55:54.312 Sending API response: messageType:GetStepValueResponse messageId:4045169385677778742 stepValueResponse:<stepValue:<stepValue:"Just registered customer is listed" parameterizedStepValue:"Just registered customer is listed" > > 
+18:58:39.277 Api Request Received: messageType:GetStepValueRequest messageId:8415383299182846129 stepValueRequest:<stepText:"Search for customer <name>" > 
+18:58:39.277 Sending API response: messageType:GetStepValueResponse messageId:8415383299182846129 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+18:58:39.316 Api Request Received: messageType:GetStepValueRequest messageId:7141783001908289734 stepValueRequest:<stepText:"The customer <name> is listed" > 
+18:58:39.316 Sending API response: messageType:GetStepValueResponse messageId:7141783001908289734 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+18:59:52.013 Api Request Received: messageType:GetStepValueRequest messageId:3832791938922051365 stepValueRequest:<stepText:"Search for customer <name>" > 
+18:59:52.013 Sending API response: messageType:GetStepValueResponse messageId:3832791938922051365 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+18:59:52.052 Api Request Received: messageType:GetStepValueRequest messageId:6355681928381493530 stepValueRequest:<stepText:"The customer <name> is listed" > 
+18:59:52.052 Sending API response: messageType:GetStepValueResponse messageId:6355681928381493530 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+19:02:11.369 Api Request Received: messageType:GetStepValueRequest messageId:3790233205043668630 stepValueRequest:<stepText:"Search for customer <name>" > 
+19:02:11.370 Sending API response: messageType:GetStepValueResponse messageId:3790233205043668630 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+19:02:11.408 Api Request Received: messageType:GetStepValueRequest messageId:8876215722237168431 stepValueRequest:<stepText:"The customer <name> is listed" > 
+19:02:11.408 Sending API response: messageType:GetStepValueResponse messageId:8876215722237168431 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+19:02:57.066 Api Request Received: messageType:GetStepValueRequest messageId:3563529922460665087 stepValueRequest:<stepText:"Search for customer <name>" > 
+19:02:57.066 Sending API response: messageType:GetStepValueResponse messageId:3563529922460665087 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+19:02:57.104 Api Request Received: messageType:GetStepValueRequest messageId:7944208304431899026 stepValueRequest:<stepText:"The customer <name> is listed" > 
+19:02:57.104 Sending API response: messageType:GetStepValueResponse messageId:7944208304431899026 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+19:04:07.267 Api Request Received: messageType:GetStepValueRequest messageId:808888504409194543 stepValueRequest:<stepText:"Search for customer <name>" > 
+19:04:07.267 Sending API response: messageType:GetStepValueResponse messageId:808888504409194543 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+19:04:07.304 Api Request Received: messageType:GetStepValueRequest messageId:2724660615602676811 stepValueRequest:<stepText:"The customer <name> is listed" > 
+19:04:07.304 Sending API response: messageType:GetStepValueResponse messageId:2724660615602676811 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+19:06:27.894 Api Request Received: messageType:GetStepValueRequest messageId:2458361689808403383 stepValueRequest:<stepText:"On the customer page" > 
+19:06:27.894 Sending API response: messageType:GetStepValueResponse messageId:2458361689808403383 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:06:27.932 Api Request Received: messageType:GetStepValueRequest messageId:4779929059729296297 stepValueRequest:<stepText:"Search for customer <name>" > 
+19:06:27.932 Sending API response: messageType:GetStepValueResponse messageId:4779929059729296297 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+19:06:27.972 Api Request Received: messageType:GetStepValueRequest messageId:2752570467391514259 stepValueRequest:<stepText:"The customer <name> is listed" > 
+19:06:27.972 Sending API response: messageType:GetStepValueResponse messageId:2752570467391514259 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+19:07:05.272 Api Request Received: messageType:GetStepValueRequest messageId:6912182391812688540 stepValueRequest:<stepText:"On the customer page" > 
+19:07:05.272 Sending API response: messageType:GetStepValueResponse messageId:6912182391812688540 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:07:05.312 Api Request Received: messageType:GetStepValueRequest messageId:3667889051083708304 stepValueRequest:<stepText:"Search for customer <name>" > 
+19:07:05.312 Sending API response: messageType:GetStepValueResponse messageId:3667889051083708304 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+19:07:05.352 Api Request Received: messageType:GetStepValueRequest messageId:4018558348245250760 stepValueRequest:<stepText:"The customer <name> is listed" > 
+19:07:05.352 Sending API response: messageType:GetStepValueResponse messageId:4018558348245250760 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+19:07:31.831 Api Request Received: messageType:GetStepValueRequest messageId:1569406706877318770 stepValueRequest:<stepText:"On the customer page" > 
+19:07:31.831 Sending API response: messageType:GetStepValueResponse messageId:1569406706877318770 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:07:31.872 Api Request Received: messageType:GetStepValueRequest messageId:5693164278984626036 stepValueRequest:<stepText:"Search for customer <name>" > 
+19:07:31.872 Sending API response: messageType:GetStepValueResponse messageId:5693164278984626036 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+19:07:31.912 Api Request Received: messageType:GetStepValueRequest messageId:7766206368174945066 stepValueRequest:<stepText:"The customer <name> is listed" > 
+19:07:31.912 Sending API response: messageType:GetStepValueResponse messageId:7766206368174945066 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+19:10:00.925 Api Request Received: messageType:GetStepValueRequest messageId:2710834996422906384 stepValueRequest:<stepText:"On the customer page" > 
+19:10:00.925 Sending API response: messageType:GetStepValueResponse messageId:2710834996422906384 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:10:00.964 Api Request Received: messageType:GetStepValueRequest messageId:4452949821325820593 stepValueRequest:<stepText:"Search for customer <name>" > 
+19:10:00.964 Sending API response: messageType:GetStepValueResponse messageId:4452949821325820593 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+19:10:01.004 Api Request Received: messageType:GetStepValueRequest messageId:8420227872998017653 stepValueRequest:<stepText:"The customer <name> is listed" > 
+19:10:01.004 Sending API response: messageType:GetStepValueResponse messageId:8420227872998017653 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+19:12:10.219 Api Request Received: messageType:GetStepValueRequest messageId:5951535237152997052 stepValueRequest:<stepText:"On the customer page" > 
+19:12:10.219 Sending API response: messageType:GetStepValueResponse messageId:5951535237152997052 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:12:10.256 Api Request Received: messageType:GetStepValueRequest messageId:6597221440324063951 stepValueRequest:<stepText:"Search for customer <name>" > 
+19:12:10.256 Sending API response: messageType:GetStepValueResponse messageId:6597221440324063951 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+19:12:10.296 Api Request Received: messageType:GetStepValueRequest messageId:6920389260469363787 stepValueRequest:<stepText:"The customer <name> is listed" > 
+19:12:10.296 Sending API response: messageType:GetStepValueResponse messageId:6920389260469363787 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+19:12:18.314 Api Request Received: messageType:GetStepValueRequest messageId:937486565530767451 stepValueRequest:<stepText:"On the customer page" > 
+19:12:18.315 Sending API response: messageType:GetStepValueResponse messageId:937486565530767451 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:12:18.352 Api Request Received: messageType:GetStepValueRequest messageId:6695834742174852896 stepValueRequest:<stepText:"Search for customer <name>" > 
+19:12:18.352 Sending API response: messageType:GetStepValueResponse messageId:6695834742174852896 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+19:12:18.392 Api Request Received: messageType:GetStepValueRequest messageId:8873778892543279544 stepValueRequest:<stepText:"The customer <name> is listed" > 
+19:12:18.392 Sending API response: messageType:GetStepValueResponse messageId:8873778892543279544 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+19:12:32.475 Api Request Received: messageType:GetStepValueRequest messageId:1421933998096980421 stepValueRequest:<stepText:"On the customer page" > 
+19:12:32.475 Sending API response: messageType:GetStepValueResponse messageId:1421933998096980421 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:12:32.512 Api Request Received: messageType:GetStepValueRequest messageId:2918752957408177018 stepValueRequest:<stepText:"Search for customer <name>" > 
+19:12:32.512 Sending API response: messageType:GetStepValueResponse messageId:2918752957408177018 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+19:12:32.552 Api Request Received: messageType:GetStepValueRequest messageId:5363806711285920245 stepValueRequest:<stepText:"The customer <name> is listed" > 
+19:12:32.552 Sending API response: messageType:GetStepValueResponse messageId:5363806711285920245 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+19:14:03.140 Api Request Received: messageType:GetStepValueRequest messageId:1545112312914575140 stepValueRequest:<stepText:"On the customer page" > 
+19:14:03.141 Sending API response: messageType:GetStepValueResponse messageId:1545112312914575140 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:14:03.180 Api Request Received: messageType:GetStepValueRequest messageId:9095434793332537126 stepValueRequest:<stepText:"Search for customer <name>" > 
+19:14:03.180 Sending API response: messageType:GetStepValueResponse messageId:9095434793332537126 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+19:14:03.220 Api Request Received: messageType:GetStepValueRequest messageId:8623505031899301288 stepValueRequest:<stepText:"The customer <name> is listed" > 
+19:14:03.220 Sending API response: messageType:GetStepValueResponse messageId:8623505031899301288 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+19:14:12.944 Api Request Received: messageType:GetStepValueRequest messageId:7867697281098452547 stepValueRequest:<stepText:"On the customer page" > 
+19:14:12.944 Sending API response: messageType:GetStepValueResponse messageId:7867697281098452547 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:14:12.984 Api Request Received: messageType:GetStepValueRequest messageId:2564126340173242264 stepValueRequest:<stepText:"Search for customer <name>" > 
+19:14:12.984 Sending API response: messageType:GetStepValueResponse messageId:2564126340173242264 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+19:14:13.024 Api Request Received: messageType:GetStepValueRequest messageId:2823758477327986118 stepValueRequest:<stepText:"The customer <name> is listed" > 
+19:14:13.024 Sending API response: messageType:GetStepValueResponse messageId:2823758477327986118 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+19:19:54.945 Api Request Received: messageType:GetStepValueRequest messageId:4018416980722685948 stepValueRequest:<stepText:"On the customer page" > 
+19:19:54.945 Sending API response: messageType:GetStepValueResponse messageId:4018416980722685948 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:19:54.984 Api Request Received: messageType:GetStepValueRequest messageId:1887033263628149809 stepValueRequest:<stepText:"Search for customer <name>" > 
+19:19:54.984 Sending API response: messageType:GetStepValueResponse messageId:1887033263628149809 stepValueResponse:<stepValue:<stepValue:"Search for customer {}" parameterizedStepValue:"Search for customer <name>" parameters:"name" > > 
+19:19:55.024 Api Request Received: messageType:GetStepValueRequest messageId:1007528216913815936 stepValueRequest:<stepText:"The customer <name> is listed" > 
+19:19:55.024 Sending API response: messageType:GetStepValueResponse messageId:1007528216913815936 stepValueResponse:<stepValue:<stepValue:"The customer {} is listed" parameterizedStepValue:"The customer <name> is listed" parameters:"name" > > 
+19:22:45.497 Api Request Received: messageType:GetStepValueRequest messageId:6230078644697774454 stepValueRequest:<stepText:"On the customer page" > 
+19:22:45.497 Sending API response: messageType:GetStepValueResponse messageId:6230078644697774454 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:22:45.536 Api Request Received: messageType:GetStepValueRequest messageId:6269068058831718324 stepValueRequest:<stepText:"Search for customer camelo" > 
+19:22:45.536 Sending API response: messageType:GetStepValueResponse messageId:6269068058831718324 stepValueResponse:<stepValue:<stepValue:"Search for customer camelo" parameterizedStepValue:"Search for customer camelo" > > 
+19:22:45.576 Api Request Received: messageType:GetStepValueRequest messageId:1187940086385794297 stepValueRequest:<stepText:"The customer camelo is listed" > 
+19:22:45.576 Sending API response: messageType:GetStepValueResponse messageId:1187940086385794297 stepValueResponse:<stepValue:<stepValue:"The customer camelo is listed" parameterizedStepValue:"The customer camelo is listed" > > 
+19:23:30.146 Api Request Received: messageType:GetStepValueRequest messageId:7134464831168751448 stepValueRequest:<stepText:"On the customer page" > 
+19:23:30.146 Sending API response: messageType:GetStepValueResponse messageId:7134464831168751448 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:23:30.184 Api Request Received: messageType:GetStepValueRequest messageId:3129907986427531438 stepValueRequest:<stepText:"Search for customer camelo" > 
+19:23:30.184 Sending API response: messageType:GetStepValueResponse messageId:3129907986427531438 stepValueResponse:<stepValue:<stepValue:"Search for customer camelo" parameterizedStepValue:"Search for customer camelo" > > 
+19:23:30.224 Api Request Received: messageType:GetStepValueRequest messageId:7071818240476209725 stepValueRequest:<stepText:"The customer camelo is listed" > 
+19:23:30.224 Sending API response: messageType:GetStepValueResponse messageId:7071818240476209725 stepValueResponse:<stepValue:<stepValue:"The customer camelo is listed" parameterizedStepValue:"The customer camelo is listed" > > 
+19:44:06.961 Api Request Received: messageType:GetStepValueRequest messageId:5967547902397086543 stepValueRequest:<stepText:"On the customer page" > 
+19:44:06.961 Sending API response: messageType:GetStepValueResponse messageId:5967547902397086543 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:44:07.000 Api Request Received: messageType:GetStepValueRequest messageId:4851477968061016736 stepValueRequest:<stepText:"Search for customer camelo" > 
+19:44:07.000 Sending API response: messageType:GetStepValueResponse messageId:4851477968061016736 stepValueResponse:<stepValue:<stepValue:"Search for customer camelo" parameterizedStepValue:"Search for customer camelo" > > 
+19:44:07.040 Api Request Received: messageType:GetStepValueRequest messageId:8592900029760808916 stepValueRequest:<stepText:"The customer camelo is listed" > 
+19:44:07.040 Sending API response: messageType:GetStepValueResponse messageId:8592900029760808916 stepValueResponse:<stepValue:<stepValue:"The customer camelo is listed" parameterizedStepValue:"The customer camelo is listed" > > 
+19:47:14.453 Api Request Received: messageType:GetStepValueRequest messageId:127089066262464736 stepValueRequest:<stepText:"On the customer page" > 
+19:47:14.453 Sending API response: messageType:GetStepValueResponse messageId:127089066262464736 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:47:14.492 Api Request Received: messageType:GetStepValueRequest messageId:124479435969697341 stepValueRequest:<stepText:"Search for customer camelo" > 
+19:47:14.492 Sending API response: messageType:GetStepValueResponse messageId:124479435969697341 stepValueResponse:<stepValue:<stepValue:"Search for customer camelo" parameterizedStepValue:"Search for customer camelo" > > 
+19:47:14.532 Api Request Received: messageType:GetStepValueRequest messageId:2910386570648029354 stepValueRequest:<stepText:"The customer camelo is listed" > 
+19:47:14.532 Sending API response: messageType:GetStepValueResponse messageId:2910386570648029354 stepValueResponse:<stepValue:<stepValue:"The customer camelo is listed" parameterizedStepValue:"The customer camelo is listed" > > 
+19:48:37.164 Api Request Received: messageType:GetStepValueRequest messageId:7647017955562880039 stepValueRequest:<stepText:"On the customer page" > 
+19:48:37.164 Sending API response: messageType:GetStepValueResponse messageId:7647017955562880039 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:48:37.204 Api Request Received: messageType:GetStepValueRequest messageId:186942542049489130 stepValueRequest:<stepText:"Search for customer camelo" > 
+19:48:37.204 Sending API response: messageType:GetStepValueResponse messageId:186942542049489130 stepValueResponse:<stepValue:<stepValue:"Search for customer camelo" parameterizedStepValue:"Search for customer camelo" > > 
+19:48:37.244 Api Request Received: messageType:GetStepValueRequest messageId:4977933021504183650 stepValueRequest:<stepText:"The customer camelo is listed" > 
+19:48:37.244 Sending API response: messageType:GetStepValueResponse messageId:4977933021504183650 stepValueResponse:<stepValue:<stepValue:"The customer camelo is listed" parameterizedStepValue:"The customer camelo is listed" > > 
+19:48:51.341 Api Request Received: messageType:GetStepValueRequest messageId:8524109583460992142 stepValueRequest:<stepText:"On the customer page" > 
+19:48:51.341 Sending API response: messageType:GetStepValueResponse messageId:8524109583460992142 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:48:51.380 Api Request Received: messageType:GetStepValueRequest messageId:1668334909040794429 stepValueRequest:<stepText:"Search for customer camelo" > 
+19:48:51.380 Sending API response: messageType:GetStepValueResponse messageId:1668334909040794429 stepValueResponse:<stepValue:<stepValue:"Search for customer camelo" parameterizedStepValue:"Search for customer camelo" > > 
+19:48:51.420 Api Request Received: messageType:GetStepValueRequest messageId:7806335351668102095 stepValueRequest:<stepText:"The customer camelo is listed" > 
+19:48:51.420 Sending API response: messageType:GetStepValueResponse messageId:7806335351668102095 stepValueResponse:<stepValue:<stepValue:"The customer camelo is listed" parameterizedStepValue:"The customer camelo is listed" > > 
+19:49:26.189 Api Request Received: messageType:GetStepValueRequest messageId:1614649678588081847 stepValueRequest:<stepText:"On the customer page" > 
+19:49:26.190 Sending API response: messageType:GetStepValueResponse messageId:1614649678588081847 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:49:26.228 Api Request Received: messageType:GetStepValueRequest messageId:3714885800058248637 stepValueRequest:<stepText:"Search for customer camelo" > 
+19:49:26.228 Sending API response: messageType:GetStepValueResponse messageId:3714885800058248637 stepValueResponse:<stepValue:<stepValue:"Search for customer camelo" parameterizedStepValue:"Search for customer camelo" > > 
+19:49:26.268 Api Request Received: messageType:GetStepValueRequest messageId:4487883035477266311 stepValueRequest:<stepText:"The customer camelo is listed" > 
+19:49:26.268 Sending API response: messageType:GetStepValueResponse messageId:4487883035477266311 stepValueResponse:<stepValue:<stepValue:"The customer camelo is listed" parameterizedStepValue:"The customer camelo is listed" > > 
+19:49:53.520 Api Request Received: messageType:GetStepValueRequest messageId:7999157986290826104 stepValueRequest:<stepText:"On the customer page" > 
+19:49:53.520 Sending API response: messageType:GetStepValueResponse messageId:7999157986290826104 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:49:53.560 Api Request Received: messageType:GetStepValueRequest messageId:4686910879554297839 stepValueRequest:<stepText:"Search for customer camelo" > 
+19:49:53.560 Sending API response: messageType:GetStepValueResponse messageId:4686910879554297839 stepValueResponse:<stepValue:<stepValue:"Search for customer camelo" parameterizedStepValue:"Search for customer camelo" > > 
+19:49:53.600 Api Request Received: messageType:GetStepValueRequest messageId:7615580130161697482 stepValueRequest:<stepText:"The customer camelo is listed" > 
+19:49:53.600 Sending API response: messageType:GetStepValueResponse messageId:7615580130161697482 stepValueResponse:<stepValue:<stepValue:"The customer camelo is listed" parameterizedStepValue:"The customer camelo is listed" > > 
+19:50:15.156 Api Request Received: messageType:GetStepValueRequest messageId:6223254183688409035 stepValueRequest:<stepText:"On the customer page" > 
+19:50:15.156 Sending API response: messageType:GetStepValueResponse messageId:6223254183688409035 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:50:15.196 Api Request Received: messageType:GetStepValueRequest messageId:4016300771395920678 stepValueRequest:<stepText:"Search for customer camelo" > 
+19:50:15.196 Sending API response: messageType:GetStepValueResponse messageId:4016300771395920678 stepValueResponse:<stepValue:<stepValue:"Search for customer camelo" parameterizedStepValue:"Search for customer camelo" > > 
+19:50:15.236 Api Request Received: messageType:GetStepValueRequest messageId:603428175665816077 stepValueRequest:<stepText:"The customer camelo is listed" > 
+19:50:15.236 Sending API response: messageType:GetStepValueResponse messageId:603428175665816077 stepValueResponse:<stepValue:<stepValue:"The customer camelo is listed" parameterizedStepValue:"The customer camelo is listed" > > 
+19:51:01.864 Api Request Received: messageType:GetStepValueRequest messageId:780988332713898414 stepValueRequest:<stepText:"On the customer page" > 
+19:51:01.864 Sending API response: messageType:GetStepValueResponse messageId:780988332713898414 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:51:01.904 Api Request Received: messageType:GetStepValueRequest messageId:5893609280761556037 stepValueRequest:<stepText:"Search for customer camelo" > 
+19:51:01.904 Sending API response: messageType:GetStepValueResponse messageId:5893609280761556037 stepValueResponse:<stepValue:<stepValue:"Search for customer camelo" parameterizedStepValue:"Search for customer camelo" > > 
+19:51:01.944 Api Request Received: messageType:GetStepValueRequest messageId:121284007634697989 stepValueRequest:<stepText:"The customer camelo is listed" > 
+19:51:01.944 Sending API response: messageType:GetStepValueResponse messageId:121284007634697989 stepValueResponse:<stepValue:<stepValue:"The customer camelo is listed" parameterizedStepValue:"The customer camelo is listed" > > 
+19:56:38.389 Api Request Received: messageType:GetStepValueRequest messageId:8938542846053606548 stepValueRequest:<stepText:"On the customer page" > 
+19:56:38.389 Sending API response: messageType:GetStepValueResponse messageId:8938542846053606548 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:56:38.428 Api Request Received: messageType:GetStepValueRequest messageId:4455670843095312712 stepValueRequest:<stepText:"Search for customer camelo" > 
+19:56:38.428 Sending API response: messageType:GetStepValueResponse messageId:4455670843095312712 stepValueResponse:<stepValue:<stepValue:"Search for customer camelo" parameterizedStepValue:"Search for customer camelo" > > 
+19:56:38.472 Api Request Received: messageType:GetStepValueRequest messageId:5424816651521831755 stepValueRequest:<stepText:"The customer camelo is listed" > 
+19:56:38.472 Sending API response: messageType:GetStepValueResponse messageId:5424816651521831755 stepValueResponse:<stepValue:<stepValue:"The customer camelo is listed" parameterizedStepValue:"The customer camelo is listed" > > 
+19:57:03.345 Api Request Received: messageType:GetStepValueRequest messageId:8819547074437840463 stepValueRequest:<stepText:"On the customer page" > 
+19:57:03.345 Sending API response: messageType:GetStepValueResponse messageId:8819547074437840463 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:57:03.384 Api Request Received: messageType:GetStepValueRequest messageId:399257871014974130 stepValueRequest:<stepText:"Search for customer camelo" > 
+19:57:03.384 Sending API response: messageType:GetStepValueResponse messageId:399257871014974130 stepValueResponse:<stepValue:<stepValue:"Search for customer camelo" parameterizedStepValue:"Search for customer camelo" > > 
+19:57:03.424 Api Request Received: messageType:GetStepValueRequest messageId:429746912749783746 stepValueRequest:<stepText:"The customer camelo is listed" > 
+19:57:03.424 Sending API response: messageType:GetStepValueResponse messageId:429746912749783746 stepValueResponse:<stepValue:<stepValue:"The customer camelo is listed" parameterizedStepValue:"The customer camelo is listed" > > 
+19:58:10.283 Api Request Received: messageType:GetStepValueRequest messageId:1686750758949852480 stepValueRequest:<stepText:"On the customer page" > 
+19:58:10.283 Sending API response: messageType:GetStepValueResponse messageId:1686750758949852480 stepValueResponse:<stepValue:<stepValue:"On the customer page" parameterizedStepValue:"On the customer page" > > 
+19:58:10.320 Api Request Received: messageType:GetStepValueRequest messageId:7697363734087424431 stepValueRequest:<stepText:"Search for customer camelo" > 
+19:58:10.320 Sending API response: messageType:GetStepValueResponse messageId:7697363734087424431 stepValueResponse:<stepValue:<stepValue:"Search for customer camelo" parameterizedStepValue:"Search for customer camelo" > > 
+19:58:10.360 Api Request Received: messageType:GetStepValueRequest messageId:8254660666946061116 stepValueRequest:<stepText:"The customer camelo is listed" > 
+19:58:10.360 Sending API response: messageType:GetStepValueResponse messageId:8254660666946061116 stepValueResponse:<stepValue:<stepValue:"The customer camelo is listed" parameterizedStepValue:"The customer camelo is listed" > > 

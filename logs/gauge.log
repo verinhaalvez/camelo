@@ -1,0 +1,611 @@
+18:47:23.893 Checking updates...
+18:47:25.152 # Signup
+18:47:25.192 ## Register a customer
+18:47:25.272 * Sign up a new customer
+18:47:25.272 * On signup page
+18:47:29.000 * Fill in and send registration form
+18:47:31.152 Failed Step: Fill in and send registration form
+18:47:31.152 Error Message: Unable to find css "#user_username"
+18:47:31.152 Specification: specs/user.spec
+18:47:31.152 Stacktrace: 
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:41:in `block in find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/base.rb:84:in `synchronize'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:30:in `find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/session.rb:585:in `block (2 levels) in <class:Session>'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element.rb:45:in `capybara_element'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element_proxy.rb:8:in `set'
+/home/vera/projetos/gauge-example-ruby/step_implementations/pages/sign_up_page.rb:15:in `signup'
+/home/vera/projetos/gauge-example-ruby/step_implementations/user_spec.rb:9:in `block in <top (required)>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/executor.rb:38:in `execute_step'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/processors/execute_step_request_processor.rb:30:in `process_execute_step_request'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `call'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `process_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:53:in `handle_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:37:in `dispatch_messages'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:76:in `<module:Runtime>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:29:in `<module:Gauge>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:27:in `<top (required)>'
+-e:1:in `require'
+-e:1:in `<main>'
+18:47:31.272 # Customers
+18:47:31.312 ## Search for a customer
+18:47:31.392 * On the customer page
+
+18:47:31.592 * Search for customer "ScroogeMcduck"
+18:47:33.736 Failed Step: Search for customer "ScroogeMcduck"
+18:47:33.736 Error Message: Unable to find css "#q_username"
+18:47:33.736 Specification: specs/customer.md:15
+18:47:33.736 Stacktrace: 
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:41:in `block in find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/base.rb:84:in `synchronize'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:30:in `find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/session.rb:585:in `block (2 levels) in <class:Session>'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element.rb:45:in `capybara_element'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element_proxy.rb:8:in `set'
+/home/vera/projetos/gauge-example-ruby/step_implementations/pages/customer_page.rb:12:in `search_user'
+/home/vera/projetos/gauge-example-ruby/step_implementations/customer_spec.rb:9:in `block in <top (required)>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/executor.rb:36:in `execute_step'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/processors/execute_step_request_processor.rb:30:in `process_execute_step_request'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `call'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `process_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:53:in `handle_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:37:in `dispatch_messages'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:76:in `<module:Runtime>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:29:in `<module:Gauge>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:27:in `<top (required)>'
+-e:1:in `require'
+-e:1:in `<main>'
+18:47:33.776 ## Verify a bunch of customers
+18:47:33.856 * On the customer page
+
+18:47:34.048 * Search for customers <table:resources/user.csv>
+18:47:36.172 Failed Step: Search for customers <table:resources/user.csv>
+18:47:36.172 Error Message: Unable to find css "#q_username"
+18:47:36.172 Specification: specs/customer.md:23
+18:47:36.172 Stacktrace: 
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:41:in `block in find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/base.rb:84:in `synchronize'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:30:in `find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/session.rb:585:in `block (2 levels) in <class:Session>'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element.rb:45:in `capybara_element'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element_proxy.rb:8:in `set'
+/home/vera/projetos/gauge-example-ruby/step_implementations/pages/customer_page.rb:12:in `search_user'
+/home/vera/projetos/gauge-example-ruby/step_implementations/customer_spec.rb:18:in `block (2 levels) in <top (required)>'
+/home/vera/projetos/gauge-example-ruby/step_implementations/customer_spec.rb:17:in `each'
+/home/vera/projetos/gauge-example-ruby/step_implementations/customer_spec.rb:17:in `block in <top (required)>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/executor.rb:36:in `execute_step'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/processors/execute_step_request_processor.rb:30:in `process_execute_step_request'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `call'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `process_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:53:in `handle_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:37:in `dispatch_messages'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:76:in `<module:Runtime>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:29:in `<module:Gauge>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:27:in `<top (required)>'
+-e:1:in `require'
+-e:1:in `<main>'
+18:47:36.292 # Products
+18:47:36.332 ## Create a new product
+18:47:36.412 * Create a product 
+
+     |Title         |Description         |Author        |Price|
+     |--------------|--------------------|--------------|-----|
+     |Go Programming|ISBN: 978-1453636671|John P. Baugh |25.00|
+     |The Way to Go |ISBN: 978-1469769165|Ivo Balbaert  |20.00|
+     |Go In Action  |ISBN: 9781617291784 |Brian Ketelsen|30.00|
+     |Learning Go   |ebook               |Miek Gieben   |0.00 |
+18:47:38.640 Failed Step: Create a product
+18:47:38.640 Error Message: Unable to find css "#product_title"
+18:47:38.640 Specification: specs/products.md:8
+18:47:38.640 Stacktrace: 
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:41:in `block in find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/base.rb:84:in `synchronize'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:30:in `find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/session.rb:585:in `block (2 levels) in <class:Session>'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element.rb:45:in `capybara_element'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element_proxy.rb:8:in `set'
+/home/vera/projetos/gauge-example-ruby/step_implementations/pages/create_product_page.rb:15:in `create'
+/home/vera/projetos/gauge-example-ruby/step_implementations/products_spec.rb:8:in `block (2 levels) in <top (required)>'
+/home/vera/projetos/gauge-example-ruby/step_implementations/products_spec.rb:6:in `each'
+/home/vera/projetos/gauge-example-ruby/step_implementations/products_spec.rb:6:in `block in <top (required)>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/executor.rb:36:in `execute_step'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/processors/execute_step_request_processor.rb:30:in `process_execute_step_request'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `call'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `process_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:53:in `handle_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:37:in `dispatch_messages'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:76:in `<module:Runtime>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:29:in `<module:Gauge>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:27:in `<top (required)>'
+-e:1:in `require'
+-e:1:in `<main>'
+18:47:38.680 ## Search for a product
+18:47:38.760 * Find and Open product page for "Go Programming"
+18:47:38.760 * On product page
+18:47:38.940 * Search for product <name>
+18:47:41.112 Failed Step: Search for product <name>
+18:47:41.112 Error Message: Unable to find css "#q_title"
+18:47:41.112 Specification: specs/products.md
+18:47:41.112 Stacktrace: 
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:41:in `block in find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/base.rb:84:in `synchronize'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:30:in `find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/session.rb:585:in `block (2 levels) in <class:Session>'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element.rb:45:in `capybara_element'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element_proxy.rb:8:in `set'
+/home/vera/projetos/gauge-example-ruby/step_implementations/pages/product_list_page.rb:12:in `search'
+/home/vera/projetos/gauge-example-ruby/step_implementations/products_spec.rb:17:in `block in <top (required)>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/executor.rb:36:in `execute_step'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/processors/execute_step_request_processor.rb:30:in `process_execute_step_request'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `call'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `process_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:53:in `handle_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:37:in `dispatch_messages'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:76:in `<module:Runtime>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:29:in `<module:Gauge>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:27:in `<top (required)>'
+-e:1:in `require'
+-e:1:in `<main>'
+18:47:41.152 ## Search and edit and existing product
+18:47:41.232 * Find and store productId for "The Way to Go"
+18:47:43.468 Failed Step: Find and store productId for "The Way to Go"
+18:47:43.468 Error Message: Unable to find css "#q_title"
+18:47:43.468 Specification: specs/products.md:29
+18:47:43.468 Stacktrace: 
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:41:in `block in find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/base.rb:84:in `synchronize'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:30:in `find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/session.rb:585:in `block (2 levels) in <class:Session>'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element.rb:45:in `capybara_element'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element_proxy.rb:8:in `set'
+/home/vera/projetos/gauge-example-ruby/step_implementations/pages/product_list_page.rb:12:in `search'
+/home/vera/projetos/gauge-example-ruby/step_implementations/products_spec.rb:43:in `block in <top (required)>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/executor.rb:36:in `execute_step'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/processors/execute_step_request_processor.rb:30:in `process_execute_step_request'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `call'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `process_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:53:in `handle_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:37:in `dispatch_messages'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:76:in `<module:Runtime>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:29:in `<module:Gauge>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:27:in `<top (required)>'
+-e:1:in `require'
+-e:1:in `<main>'
+18:47:43.508 ## Delete a product
+18:47:43.588 * Delete product "Learning Go"
+18:47:43.588 * Find and Open product page for <name>
+18:47:43.588 * On product page
+18:47:43.752 * Search for product <name>
+18:47:45.928 Failed Step: Search for product <name>
+18:47:45.928 Error Message: Unable to find css "#q_title"
+18:47:45.928 Specification: specs/products.md
+18:47:45.928 Stacktrace: 
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:41:in `block in find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/base.rb:84:in `synchronize'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:30:in `find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/session.rb:585:in `block (2 levels) in <class:Session>'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element.rb:45:in `capybara_element'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element_proxy.rb:8:in `set'
+/home/vera/projetos/gauge-example-ruby/step_implementations/pages/product_list_page.rb:12:in `search'
+/home/vera/projetos/gauge-example-ruby/step_implementations/products_spec.rb:17:in `block in <top (required)>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/executor.rb:36:in `execute_step'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/processors/execute_step_request_processor.rb:30:in `process_execute_step_request'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `call'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `process_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:53:in `handle_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:37:in `dispatch_messages'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:76:in `<module:Runtime>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:29:in `<module:Gauge>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:27:in `<top (required)>'
+-e:1:in `require'
+-e:1:in `<main>'
+18:47:46.110 Plugin [Html Report] with pid [14841] has exited
+18:47:46.210 Specifications:	3 executed	0 passed	3 failed	0 skipped
+18:47:46.210 Scenarios:	7 executed	0 passed	7 failed	0 skipped
+18:47:46.210 
+Total time taken: 20.984s
+18:50:57.675 Checking updates...
+18:50:57.864 # Customers
+18:50:57.904 ## Search for a customer
+18:50:57.984 * On the customer page
+
+18:51:02.300 * Search for customer "ScroogeMcduck"
+18:51:04.456 Failed Step: Search for customer "ScroogeMcduck"
+18:51:04.456 Error Message: Unable to find css "#q_username"
+18:51:04.456 Specification: specs/customer.md:15
+18:51:04.456 Stacktrace: 
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:41:in `block in find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/base.rb:84:in `synchronize'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:30:in `find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/session.rb:585:in `block (2 levels) in <class:Session>'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element.rb:45:in `capybara_element'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element_proxy.rb:8:in `set'
+/home/vera/projetos/gauge-example-ruby/step_implementations/pages/customer_page.rb:12:in `search_user'
+/home/vera/projetos/gauge-example-ruby/step_implementations/customer_spec.rb:9:in `block in <top (required)>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/executor.rb:36:in `execute_step'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/processors/execute_step_request_processor.rb:30:in `process_execute_step_request'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `call'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `process_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:53:in `handle_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:37:in `dispatch_messages'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:76:in `<module:Runtime>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:29:in `<module:Gauge>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:27:in `<top (required)>'
+-e:1:in `require'
+-e:1:in `<main>'
+18:51:04.496 ## Verify a bunch of customers
+18:51:04.576 * On the customer page
+
+18:51:04.760 * Search for customers <table:resources/user.csv>
+18:51:06.892 Failed Step: Search for customers <table:resources/user.csv>
+18:51:06.892 Error Message: Unable to find css "#q_username"
+18:51:06.892 Specification: specs/customer.md:23
+18:51:06.892 Stacktrace: 
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:41:in `block in find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/base.rb:84:in `synchronize'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/node/finders.rb:30:in `find'
+/var/lib/gems/2.3.0/gems/capybara-2.3.0/lib/capybara/session.rb:585:in `block (2 levels) in <class:Session>'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element.rb:45:in `capybara_element'
+/var/lib/gems/2.3.0/gems/capypage-0.2.7/lib/capypage/element_proxy.rb:8:in `set'
+/home/vera/projetos/gauge-example-ruby/step_implementations/pages/customer_page.rb:12:in `search_user'
+/home/vera/projetos/gauge-example-ruby/step_implementations/customer_spec.rb:18:in `block (2 levels) in <top (required)>'
+/home/vera/projetos/gauge-example-ruby/step_implementations/customer_spec.rb:17:in `each'
+/home/vera/projetos/gauge-example-ruby/step_implementations/customer_spec.rb:17:in `block in <top (required)>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/executor.rb:36:in `execute_step'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/processors/execute_step_request_processor.rb:30:in `process_execute_step_request'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `call'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `process_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:53:in `handle_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:37:in `dispatch_messages'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:76:in `<module:Runtime>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:29:in `<module:Gauge>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:27:in `<top (required)>'
+-e:1:in `require'
+-e:1:in `<main>'
+18:51:07.073 Plugin [Html Report] with pid [15581] has exited
+18:51:07.174 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:51:07.174 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+18:51:07.174 
+Total time taken: 9.236s
+18:55:53.511 [ParseError] /home/vera/projetos/gauge-example-ruby/specs/customer.md:2 Spec heading should have at least one character => ''
+18:55:54.541 Plugin [Html Report] with pid [16121] has exited
+18:55:54.542 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:55:54.542 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+18:55:54.542 
+Total time taken: 88ms
+18:58:38.616 [ParseError] /home/vera/projetos/gauge-example-ruby/specs/customer.md:2 Spec heading should have at least one character => ''
+18:58:39.451 Checking updates...
+18:58:39.541 Plugin [Html Report] with pid [16270] has exited
+18:58:39.542 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:58:39.542 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+18:58:39.542 
+Total time taken: 84ms
+18:59:51.328 [ParseError] /home/vera/projetos/gauge-example-ruby/specs/customer.md:2 Spec heading should have at least one character => ''
+18:59:52.149 Checking updates...
+18:59:52.280 Plugin [Html Report] with pid [16370] has exited
+18:59:52.281 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:59:52.281 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+18:59:52.281 
+Total time taken: 87ms
+19:02:10.702 [ParseError] /home/vera/projetos/gauge-example-ruby/specs/customer.md:2 Spec heading should have at least one character => ''
+19:02:11.633 Plugin [Html Report] with pid [16462] has exited
+19:02:11.633 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:02:11.633 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+19:02:11.633 
+Total time taken: 84ms
+19:02:57.161 Checking updates...
+19:02:57.268 # Customers
+19:02:57.308 ## Search for a customer
+19:02:57.388 * Search for customer "ScroogeMcduck"
+19:02:57.508 * The customer "ScroogeMcduck" is listed
+19:02:57.809 Plugin [Html Report] with pid [16537] has exited
+19:02:57.810 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:02:57.810 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:02:57.810 
+Total time taken: 564ms
+19:04:07.400 Checking updates...
+19:04:07.468 # Customers
+19:04:07.508 ## Search for a customer
+19:04:07.588 * Search for customer "ScroogeMcduck"
+19:04:07.708 * The customer "ScroogeMcduck" is listed
+19:04:08.009 Plugin [Html Report] with pid [16595] has exited
+19:04:08.010 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:04:08.010 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:04:08.010 
+Total time taken: 564ms
+19:06:27.246 [ParseError] /home/vera/projetos/gauge-example-ruby/specs/customer.md:2 Spec heading should have at least one character => ''
+19:06:28.083 Checking updates...
+19:06:28.241 Plugin [Html Report] with pid [16672] has exited
+19:06:28.241 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:06:28.241 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+19:06:28.241 
+Total time taken: 88ms
+19:07:05.443 Checking updates...
+19:07:05.560 # Customer
+19:07:05.600 ## Search for a customer
+19:07:05.680 * On the customer page
+19:07:10.508 * Search for customer "ScroogeMcduck"
+19:07:10.628 * The customer "ScroogeMcduck" is listed
+19:07:10.929 Plugin [Html Report] with pid [16719] has exited
+19:07:11.029 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:07:11.029 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:07:11.029 
+Total time taken: 5.396s
+19:07:32.120 # Customer
+19:07:32.160 ## Search for a customer
+19:07:32.240 * On the customer page
+19:07:32.356 Checking updates...
+19:07:36.588 * Search for customer "ScroogeMcduck"
+19:07:36.708 * The customer "ScroogeMcduck" is listed
+19:07:37.009 Plugin [Html Report] with pid [16910] has exited
+19:07:37.110 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:07:37.110 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:07:37.110 
+Total time taken: 4.916s
+19:10:01.085 Checking updates...
+19:10:01.212 # Customer
+19:10:01.252 ## Search for a customer
+19:10:01.332 * On the customer page
+19:10:06.380 * Search for customer "ScroogeMcduck"
+19:10:06.500 * The customer "ScroogeMcduck" is listed
+19:10:06.801 Plugin [Html Report] with pid [17230] has exited
+19:10:07.303 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:10:07.303 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:10:07.303 
+Total time taken: 5.616s
+19:12:10.504 # Customer
+19:12:10.544 ## Search for a customer
+19:12:10.594 Checking updates...
+19:12:10.624 * On the customer page
+19:12:14.848 * Search for customer "ScroogeMcduck"
+19:12:14.968 * The customer "ScroogeMcduck" is listed
+19:12:15.271 Plugin [Html Report] with pid [17507] has exited
+19:12:15.271 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:12:15.271 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:12:15.272 
+Total time taken: 4.794s
+19:12:18.465 Checking updates...
+19:12:18.600 # Customer
+19:12:18.640 ## Search for a customer
+19:12:18.720 * On the customer page
+19:12:23.584 * Search for customer "ScroogeMcduck"
+19:12:23.704 * The customer "ScroogeMcduck" is listed
+19:12:24.005 Plugin [Html Report] with pid [17669] has exited
+19:12:24.308 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:12:24.308 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:12:24.308 
+Total time taken: 5.432s
+19:12:32.594 Checking updates...
+19:12:32.756 # Customer
+19:12:32.796 ## Search for a customer
+19:12:32.876 * On the customer page
+19:12:37.516 * Search for customer "ScroogeMcduck"
+19:12:37.636 * The customer "ScroogeMcduck" is listed
+19:12:37.937 Plugin [Html Report] with pid [17852] has exited
+19:12:38.037 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:12:38.037 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:12:38.037 
+Total time taken: 5.2s
+19:14:03.361 Checking updates...
+19:14:03.428 # Customer
+19:14:03.468 ## Search for a customer
+19:14:03.548 * On the customer page
+19:14:09.536 * Search for customer "ScroogeMcduck"
+19:14:09.656 * The customer "ScroogeMcduck" is listed
+19:14:09.957 Plugin [Html Report] with pid [18103] has exited
+19:14:10.158 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:14:10.158 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:14:10.158 
+Total time taken: 6.556s
+19:14:13.088 Checking updates...
+19:14:13.232 # Customer
+19:14:13.272 ## Search for a customer
+19:14:13.352 * On the customer page
+19:14:19.880 * Search for customer "ScroogeMcduck"
+19:14:20.000 * The customer "ScroogeMcduck" is listed
+19:14:20.301 Plugin [Html Report] with pid [18265] has exited
+19:14:20.402 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:14:20.402 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:14:20.402 
+Total time taken: 7.096s
+19:19:55.232 # Customer
+19:19:55.272 Checking updates...
+19:19:55.272 ## Search for a customer
+19:19:55.352 * On the customer page
+19:20:01.116 * Search for customer "camelo"
+19:20:01.236 * The customer "camelo" is listed
+19:20:01.537 Plugin [Html Report] with pid [18590] has exited
+19:20:01.637 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:20:01.637 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:20:01.637 
+Total time taken: 6.332s
+19:22:45.683 Checking updates...
+19:22:45.784 # Customer
+19:22:45.824 ## Search for a customer
+19:22:45.904 * On the customer page
+19:22:52.752 * Search for customer camelo
+19:22:52.876 Failed Step: Search for customer camelo
+19:22:52.876 Error Message: undefined local variable or method `name' for main:Object
+19:22:52.876 Specification: specs/customer.md:10
+19:22:52.876 Stacktrace: 
+/home/vera/projetos/gauge-example-ruby/step_implementations/customer_spec.rb:9:in `block in <top (required)>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/executor.rb:38:in `execute_step'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/processors/execute_step_request_processor.rb:30:in `process_execute_step_request'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `call'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `process_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:53:in `handle_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:37:in `dispatch_messages'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:76:in `<module:Runtime>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:29:in `<module:Gauge>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:27:in `<top (required)>'
+-e:1:in `require'
+-e:1:in `<main>'
+19:22:53.057 Plugin [Html Report] with pid [18874] has exited
+19:22:53.158 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:22:53.158 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19:22:53.158 
+Total time taken: 7.3s
+19:23:30.432 # Customer
+19:23:30.472 ## Search for a customer
+19:23:30.552 * On the customer page
+19:23:49.490 Checking updates...
+19:24:09.558 Failed to download html-report-install.json file: Get https://downloads.getgauge.io/plugin/html-report?l=ruby&p=html-report,ruby&o=linux&a=amd64: dial tcp: lookup downloads.getgauge.io on 127.0.1.1:53: read udp 127.0.0.1:37939->127.0.1.1:53: i/o timeout
+19:24:11.676 * Search for customer camelo
+19:24:11.796 * The customer camelo is listed
+19:24:12.098 Plugin [Html Report] with pid [19062] has exited
+19:24:12.198 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:24:12.198 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:24:12.198 
+Total time taken: 41.692s
+19:44:07.248 # Customer
+19:44:07.288 ## Search for a customer
+19:44:07.368 * On the customer page
+19:44:07.686 Checking updates...
+19:44:13.604 * Search for customer camelo
+19:44:13.728 Failed Step: Search for customer camelo
+19:44:13.728 Error Message: uninitialized constant CustomerPage
+19:44:13.728 Specification: specs/customer.md:10
+19:44:13.728 Stacktrace: 
+/home/vera/projetos/gauge-example-ruby/step_implementations/customer_spec.rb:9:in `block in <top (required)>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/executor.rb:38:in `execute_step'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/processors/execute_step_request_processor.rb:30:in `process_execute_step_request'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `call'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `process_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:53:in `handle_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:37:in `dispatch_messages'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:76:in `<module:Runtime>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:29:in `<module:Gauge>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:27:in `<top (required)>'
+-e:1:in `require'
+-e:1:in `<main>'
+19:44:13.910 Plugin [Html Report] with pid [20056] has exited
+19:44:14.010 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:44:14.010 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19:44:14.010 
+Total time taken: 6.689s
+19:47:14.614 Checking updates...
+19:47:14.740 # Customer
+19:47:14.780 ## Search for a customer
+19:47:14.860 * On the customer page
+19:47:20.856 * Search for customer camelo
+19:47:20.980 Failed Step: Search for customer camelo
+19:47:20.980 Error Message: undefined local variable or method `customerpage' for main:Object
+Did you mean?  customer_page
+19:47:20.980 Specification: specs/customer.md:10
+19:47:20.980 Stacktrace: 
+/home/vera/projetos/gauge-example-ruby/step_implementations/customer_spec.rb:9:in `block in <top (required)>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/executor.rb:38:in `execute_step'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/processors/execute_step_request_processor.rb:30:in `process_execute_step_request'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `call'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/message_processor.rb:52:in `process_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:53:in `handle_message'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:37:in `dispatch_messages'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:76:in `<module:Runtime>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:29:in `<module:Gauge>'
+/var/lib/gems/2.3.0/gems/gauge-ruby-0.4.0/lib/gauge_runtime.rb:27:in `<top (required)>'
+-e:1:in `require'
+-e:1:in `<main>'
+19:47:21.162 Plugin [Html Report] with pid [20441] has exited
+19:47:21.162 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:47:21.162 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+19:47:21.162 
+Total time taken: 6.449s
+19:48:37.344 Checking updates...
+19:48:37.452 # Customer
+19:48:37.492 ## Search for a customer
+19:48:37.572 * On the customer page
+19:48:44.184 * Search for customer camelo
+19:48:44.468 * The customer camelo is listed
+19:48:44.769 Plugin [Html Report] with pid [20663] has exited
+19:48:44.870 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:48:44.870 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:48:44.870 
+Total time taken: 7.344s
+19:48:51.529 Checking updates...
+19:48:51.624 # Customer
+19:48:51.664 ## Search for a customer
+19:48:51.744 * On the customer page
+19:48:57.316 * Search for customer camelo
+19:48:57.800 * The customer camelo is listed
+19:48:58.101 Plugin [Html Report] with pid [20847] has exited
+19:48:58.201 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:48:58.201 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:48:58.201 
+Total time taken: 6.5s
+19:49:26.476 # Customer
+19:49:26.516 ## Search for a customer
+19:49:26.596 * On the customer page
+19:49:26.727 Checking updates...
+19:49:32.380 * Search for customer camelo
+19:49:32.660 * The customer camelo is listed
+19:49:32.961 Plugin [Html Report] with pid [21052] has exited
+19:49:33.062 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:49:33.062 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:49:33.062 
+Total time taken: 6.512s
+19:49:53.670 Checking updates...
+19:49:53.808 # Customer
+19:49:53.848 ## Search for a customer
+19:49:53.928 * On the customer page
+19:50:01.216 * Search for customer camelo
+19:50:11.556 * The customer camelo is listed
+19:50:11.857 Plugin [Html Report] with pid [21287] has exited
+19:50:12.159 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:50:12.159 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:50:12.159 
+Total time taken: 18.076s
+19:50:15.317 Checking updates...
+19:50:15.444 # Customer
+19:50:15.484 ## Search for a customer
+19:50:15.564 * On the customer page
+19:50:20.860 * Search for customer camelo
+19:50:31.204 * The customer camelo is listed
+19:50:31.505 Plugin [Html Report] with pid [21470] has exited
+19:50:31.606 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:50:31.606 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:50:31.606 
+Total time taken: 16.088s
+19:51:02.035 Checking updates...
+19:51:02.152 # Customer
+19:51:02.192 ## Search for a customer
+19:51:02.272 * On the customer page
+19:51:08.556 * Search for customer camelo
+19:51:18.824 * The customer camelo is listed
+19:51:19.125 Plugin [Html Report] with pid [21670] has exited
+19:51:19.226 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:51:19.226 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:51:19.226 
+Total time taken: 17s
+19:56:38.680 # Customer
+19:56:38.720 ## Search for a customer
+19:56:38.800 * On the customer page
+19:56:38.956 Checking updates...
+19:56:44.764 * Search for customer camelo
+19:56:55.076 * The customer camelo is listed
+19:56:55.377 Plugin [Html Report] with pid [22076] has exited
+19:56:55.478 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:56:55.478 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:56:55.478 
+Total time taken: 16.724s
+19:57:03.459 Checking updates...
+19:57:03.632 # Customer
+19:57:03.672 ## Search for a customer
+19:57:03.752 * On the customer page
+19:57:10.160 * Search for customer camelo
+19:57:20.436 * The customer camelo is listed
+19:57:20.737 Plugin [Html Report] with pid [22254] has exited
+19:57:20.737 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:57:20.737 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:57:20.737 
+Total time taken: 17.132s
+19:58:10.395 Checking updates...
+19:58:10.564 # Customer
+19:58:10.604 ## Search for a customer
+19:58:10.684 * On the customer page
+19:58:16.520 * Search for customer camelo
+19:58:26.800 * The customer camelo is listed
+19:58:27.101 Plugin [Html Report] with pid [22468] has exited
+19:58:27.201 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:58:27.202 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+19:58:27.202 
+Total time taken: 16.56s
